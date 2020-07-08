@@ -1,0 +1,251 @@
+#TinDog{
+
+  background-color: #ff4c68;
+  padding-bottom: 250px;
+}
+
+.brand{
+   font-family: 'Montserrat-black', sans-serif;
+
+   font-size: 4rem;
+   line-height: 1.5;
+   padding-bottom: 1.5rem;
+}
+
+.subjectH1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;
+
+}
+
+
+#features{
+
+ padding-right: 15%;
+ padding-left: 15%;
+ padding-top: 7%;
+ padding-bottom: 7%;
+ background-color: white;
+ position: relative;
+ z-index: 1;
+}
+
+.feature-box{
+
+ /* margin-left: 123px; */
+ /* margin-right: 123px; */
+ text-align: center;
+
+}
+
+.extend{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+
+.container1{
+
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  /* align-items: center; */
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+
+}
+
+.icon{
+
+ color: #ff4c68;
+
+}
+
+.icon:hover{
+
+  color: #FF7F50;
+}
+
+
+
+
+
+body{
+
+  /* font-family: 'Montserrat'; */
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+ /* h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding-bottom: 1.5rem;} */
+
+ /* h3{
+
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+  } */
+
+  .features-pricing-H3{
+
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    color: #343a40;
+  }
+
+p{
+  color: #8f8f8f;
+}
+
+/* .col-lg-6{
+
+  padding-top: 5%;
+  padding-left: 30%;
+} */
+
+
+  .navbar-brand{
+
+   font-family: "Ubuntu", sans-serif;
+   font-size: 1.5rem;
+   color: #343a40;
+
+ }
+
+ .rotate{
+
+   transform: rotate(30deg);
+   position: absolute;
+   padding-left: 100px;
+ }
+
+
+ #testimonials{
+
+    padding: 7% 15% 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    font-family: "Montserrat"
+ }
+
+ .testimonial-image{
+
+   width: 15%;
+   border-radius: 100%;
+   margin-top: 5%;
+   text-align: center;
+ }
+
+
+ #press{
+
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .press-image{
+
+   width: 10%;
+   margin-left: 28px;
+   margin-right: 28px;
+ }
+
+
+.CIP{
+
+  padding: 0% 15%;
+}
+
+.pricing-padding{
+
+  margin-bottom: 0%;
+}
+
+#pricing{
+
+  text-align: center;
+}
+
+@media (max-width:980px) {
+
+  #TinDog{
+
+    text-align: center;
+    padding-bottom: 100px;
+
+  }
+
+  .rotate{
+    padding-top: 50px;
+    transform:rotate(0deg);
+    position: static;
+  }
+
+}
+
+#cta{
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#footer{
+
+  background-color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
+.cta-footer{
+  padding-top: 25px;
+  font-style: "Montserrat";
+  font-weight: 900;
+  color:#fff;
+  padding-bottom: 50px;
+}
+
+
+.CMC{
+  color:black;
+}
+
+
+.col-gap{
+
+  margin-left: 100px;
+  margin-right: 15px;
+}
+
+
+.card-color{
+
+  background-color: black;
+}
